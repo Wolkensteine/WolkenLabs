@@ -22,4 +22,8 @@ public class Output extends JPanel {
 		return Output.instance;
 	}
 	
+	public static void refresh() {
+		
+	}
+	
 }

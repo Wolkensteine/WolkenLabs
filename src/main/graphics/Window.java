@@ -13,7 +13,7 @@ public class Window extends JFrame {
 		this.setTitle(Title);
 		this.setPreferredSize(new Dimension(x, y));
 		this.setSize(getPreferredSize());
-		this.setResizable(false);
+		this.setResizable(true);
 		this.setVisible(true);
 		
 	}
@@ -26,7 +26,7 @@ public class Window extends JFrame {
 	}
 	
 	public static Dimension getDimension() {
-		return getDimension();
+		return new Dimension(instance.getWidth(), instance.getHeight());
 	}
 	
 }

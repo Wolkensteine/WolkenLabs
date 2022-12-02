@@ -18,6 +18,7 @@ public class Logger {
 		
 		try {
 			
+			// If file needs to be created, create the file and log message afterwards
 			if (LoggingFile.createNewFile()) {		
 				
 				log("Main > Logger >", "Created Log file!");
