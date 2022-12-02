@@ -10,7 +10,7 @@ public class Logger {
 
 	public static boolean log(String Module, String Message) {
 		
-		// Variables
+		// Declaration of variables
 		FileWriter LogWriter;
 		LocalDate Date = LocalDate.now();
 		LocalDateTime DateTime = LocalDateTime.now();
