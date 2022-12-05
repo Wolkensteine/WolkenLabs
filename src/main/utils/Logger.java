@@ -24,7 +24,7 @@ public class Logger {
 				log("Main > Logger >", "Created Log file!");
 						
 				try {
-					LogWriter = new FileWriter("Logs/" + Date + ".txt", true);				// Creating FileWriter
+					LogWriter = new FileWriter("Logs/" + Date + "_WolkenLabsLog.txt", true);// Creating FileWriter
 					LogWriter.write(DateTime + "=> " + Module + " " + Message + "\n");		// Logs the message
 					System.out.println(DateTime + "=> " + Module + " " + Message + "\n");	// Message is printed out for development
 					LogWriter.close();
@@ -36,7 +36,7 @@ public class Logger {
 			} else {
 			
 				try {
-					LogWriter = new FileWriter("Logs/" + Date + ".txt", true);				// Creating FileWriter
+					LogWriter = new FileWriter("Logs/" + Date + "_WolkenLabsLog.txt", true);// Creating FileWriter
 					LogWriter.write(DateTime + "=> " + Module + " " + Message + "\n");		// Logs the message
 					System.out.println(DateTime + "=> " + Module + " " + Message + "\n");	// Message is printed out for development
 					LogWriter.close();
